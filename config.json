@@ -1,0 +1,72 @@
+{"apps": [{
+  "appId": "APPLICATION_ID",
+  "port": "1337",
+  "databaseUri": "mongodb://localhost:27017/app1",
+  "name": "app1",
+  "masterKey": "myMasterKey",
+  "fileKey": "optionalFileKey",
+  "serverURL": "http://localhost:1337/parse",
+  "restAPIKey": "restkey",
+  "push": {
+    "android": {
+      "senderId": "xxx",
+      "apiKey": "xxx"
+    },
+    "ios": {
+      "pfx": "xxx",
+      "cert": "xxx",
+      "key": "xxx",
+      "bundleId": "xxx",
+      "production": false
+    }
+  }
+},
+{
+  "appId": "APPLICATION_ID3",
+  "port": "1337",
+  "databaseUri": "mongodb://localhost:27017/app3",
+  "name": "app3",
+  "masterKey": "myMasterKey",
+  "fileKey": "optionalFileKey",
+  "serverURL": "http://localhost:1337/parse3",
+  "restAPIKey": "restkey",
+  "push": {
+    "android": {
+      "senderId": "xxx",
+      "apiKey": "xxx"
+    },
+    "ios": {
+      "pfx": "xxx",
+      "cert": "xxx",
+      "key": "xxx",
+      "bundleId": "xxx",
+      "production": false
+    }
+  }
+},
+{
+  "appId": "APPLICATION_ID2",
+  "masterKey": "myMasterKey",
+  "fileKey": "optionalFileKey",
+  "port": "1337",
+  "databaseUri": "mongodb://localhost:27017/app2",
+  "name": "app2",
+  "serverURL": "http://localhost:1337/app2",
+  "restAPIKey": "restkey",
+  "push": {
+    "android": {
+      "senderId": "xxx",
+      "apiKey": "xxx"
+    },
+    "ios": {
+      "pfx": "xxx",
+      "cert": "xxx",
+      "key": "xxx",
+      "bundleId": "xxx",
+      "production": false
+    }
+  }
+}
+],
+"port": "1337"
+}
