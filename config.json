@@ -1,12 +1,12 @@
 {"apps": [{
   "appId": "APPLICATION_ID",
   "port": "1337",
-  "databaseURI": "mongodb://localhost:27017/parse",
+  "databaseURI": "mongodb://heroku_r55sxmq1:gq0qeag7p291p6poklgrb8jabi@ds015730.mlab.com:15730/heroku_r55sxmq1/parse",
   "name": "app1",
   "masterKey": "myMasterKey",
   "cloud": "./cloudcode/app1/main.js",
   "fileKey": "optionalFileKey",
-  "serverURL": "http://localhost:1337/parse",
+  "serverURL": "http://geronimo-parse.herokuapp.com/parse",
   "restAPIKey": "restkey",
   "push": {
     "android": {
@@ -25,11 +25,11 @@
 {
   "appId": "APPLICATION_ID3",
   "port": "1337",
-  "databaseURI": "mongodb://localhost:27017/app3",
+  "databaseURI": "mongodb://heroku_r55sxmq1:gq0qeag7p291p6poklgrb8jabi@ds015730.mlab.com:15730/heroku_r55sxmq1/app3",
   "name": "app3",
   "masterKey": "myMasterKey",
   "fileKey": "optionalFileKey",
-  "serverURL": "http://localhost:1337/parse3",
+  "serverURL": "http://geronimo-parse.herokuapp.com/parse3",
   "restAPIKey": "restkey",
   "push": {
     "android": {
@@ -50,10 +50,10 @@
   "masterKey": "myMasterKey",
   "fileKey": "optionalFileKey",
   "port": "1337",
-  "databaseURI": "mongodb://localhost:27017/app2",
+  "databaseURI": "mongodb://heroku_r55sxmq1:gq0qeag7p291p6poklgrb8jabi@ds015730.mlab.com:15730/heroku_r55sxmq1/app2",
   "name": "app2",
   "cloud": "./cloudcode/app2/main.js",
-  "serverURL": "http://localhost:1337/app2",
+  "serverURL": "http://geronimo-parse.herokuapp.com/app2",
   "restAPIKey": "restkey",
   "push": {
     "android": {
