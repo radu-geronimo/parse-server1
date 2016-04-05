@@ -1,12 +1,12 @@
 {"apps": [{
   "appId": "APPLICATION_ID",
   "port": "1337",
-  "databaseURI": "mongodb://heroku_r55sxmq1:gq0qeag7p291p6poklgrb8jabi@ds015730.mlab.com:15730/heroku_r55sxmq1/parse",
+  "databaseURI": "mongodb://heroku_50cbwhf1:p70lic9a0rhr4caq5j2bs9hbvt@ds021289.mlab.com:21289/heroku_50cbwhf1",
   "name": "app1",
   "masterKey": "myMasterKey",
   "cloud": "./cloudcode/app1/main.js",
   "fileKey": "optionalFileKey",
-  "serverURL": "http://geronimo-parse.herokuapp.com/parse",
+  "serverURL": "http://geronimo-parse.herokuapp.com/app1",
   "restAPIKey": "restkey",
   "push": {
     "android": {
