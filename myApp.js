@@ -12,6 +12,6 @@ if (config.apps) {
 }
 
 
-app.listen(config.port, function(){
+app.listen(process.env.PORT || config.port, function(){
   console.log("working! listening on port: " + config.port);
 });
