@@ -50,7 +50,7 @@
   "masterKey": "myMasterKey",
   "fileKey": "optionalFileKey",
   "port": "1337",
-  "databaseURI": "mongodb://heroku_r55sxmq1:gq0qeag7p291p6poklgrb8jabi@ds015730.mlab.com:15730/heroku_r55sxmq1/app2",
+  "databaseURI": "mongodb://heroku_r55sxmq1:gq0qeag7p291p6poklgrb8jabi@ds015730.mlab.com:15730/heroku_r55sxmq1",
   "name": "app2",
   "cloud": "./cloudcode/app2/main.js",
   "serverURL": "http://geronimo-parse.herokuapp.com/app2",
