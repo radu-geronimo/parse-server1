@@ -1,6 +1,7 @@
 var express = require('express');
 var _index = require('./lib/index');
 var config = require('./config.json');
+
 console.log('starting app..');
 var app = express();
 console.log('created express server');
