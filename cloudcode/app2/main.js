@@ -8,7 +8,7 @@ Parse.Cloud.define('sendMail', function(req, res) {
 
 	var api_key = 'key-8c7255cf60cf0684002ef11199998726';
 
-	var domain = 'https://api.mailgun.net/v3/sandbox590344212e2d428f9d7cbcd0c22cda0c.mailgun.org/messages';
+	var domain = 'sandbox590344212e2d428f9d7cbcd0c22cda0c.mailgun.org';
 
 	var from_who = 'Mailgun Sandbox <postmaster@sandbox590344212e2d428f9d7cbcd0c22cda0c.mailgun.org>';
 
